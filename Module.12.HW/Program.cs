@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            User[] users = { new User { IsPremium = true }; new User { IsPremium = false };
-
-
+            User[] users = { new User { IsPremium = true }, new User { IsPremium = false }, };
+            users.Greetings();
         }
     }
 }
-}
+
