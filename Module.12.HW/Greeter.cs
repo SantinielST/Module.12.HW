@@ -12,6 +12,7 @@ static class Greeter
             }
         
             Console.WriteLine($"Добрый день, {user.Name}!");
+            Console.WriteLine();
         }
     }
 
